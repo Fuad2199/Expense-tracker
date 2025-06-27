@@ -51,7 +51,7 @@ const Sidebar: React.FC = () => {
                 item.active ? "text-sidebar-active" : "text-primary"
               }`}
             />
-            <a className={`text-xl font-medium  ${item.active ? "text-sidebar-active" : "text-primary"}`}>{item.name}</a>
+            <a className={`hidden 2xl:block xl:block text-xl font-medium ${item.active ? "text-sidebar-active" : "text-primary"}`}>{item.name}</a>
           </div>
         ))}
       </div>
